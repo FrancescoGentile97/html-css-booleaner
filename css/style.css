@@ -1,0 +1,114 @@
+body {
+    min-height: 100%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+#container {
+    background-image: url(../img/pattern.png);
+    background-color: aqua;
+    height: 100px;
+    padding-bottom: 6%;
+}
+
+.logo {
+    text-align: left;
+    width: 250px;
+    height: 70%;
+    margin-top: 6%;
+    padding-bottom: 2%;
+}
+
+#titolo {
+    margin-bottom: 1%;
+    margin-left: 10px;
+    margin-bottom: 0%;
+}
+
+#credits {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0%;
+}
+
+#blue {
+    color: #46a2ff;
+}
+
+#photo-description {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.underlined {
+    background: yellow;
+}
+
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.photo {
+    height: 300px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+#check {
+    margin-left: 10px;
+    color: grey;
+    font-weight: bold;
+}
+    
+
+th {
+    height: 5px;
+    color: white;
+    width: max-content;
+    text-align: left;
+
+}
+
+.blue-cell {
+    background-color: #46a2ff;
+    padding: 0px;
+}
+
+.lightblue-cell {
+    background-color: lightblue;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    width: 33%;
+    height: 5px;
+    border: 1px solid #ccc;
+}
